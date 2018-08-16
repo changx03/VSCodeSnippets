@@ -22,3 +22,21 @@ reactcomponent name
 ```
 reactclass name
 ```
+
+### For snapApps:
+
+In ts file:
+
+- Create BaseController:
+
+```
+snapcontroller model 
+```
+
+In tsx file:
+
+- Create BaseController:
+
+```
+snapclass name 
+```
