@@ -5,7 +5,7 @@ Simple snippets for creating React component in JavaScript
 ## Add snippets to VS code
 
 1. select **User Snippets** under **File** > **Preferences** (**Code** > **Preferences** on macOS)
-1. Copy *javascript.json*
+1. Copy files into *C:\Users\[USERNAME]\AppData\Roaming\Code\User\snippets* on Windows
 
 ## Use snippets
 
