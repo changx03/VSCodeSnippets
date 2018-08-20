@@ -18,7 +18,6 @@
 			"import { observer } from \"mobx-react\";",
 			"import * as React from \"react\";",
 			"import { RouteComponentProps } from \"react-router\";",
-			"import { } from \"../../shared\";",
 			"",
 			"@observer",
 			"export default class ${1:Name} extends React.Component<RouteComponentProps<{}, {}>, {}> {",

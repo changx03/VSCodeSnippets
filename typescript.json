@@ -15,9 +15,9 @@
 	"Create snapApp controller": {
 		"prefix": "snapcontroller",
 		"body": [
-			"import { BaseController } from \"../../shared\";",
-			"import appController from \"../app-controller\";",
-			"import { ${1:Model} } from \"../models\";",
+			"import { BaseController } from \"../shared\";",
+			"import appController from \"./app-controller\";",
+			"import { ${1:Model} } from \"./models\";",
 			"",
 			"const CAN_EDIT = appController.appConfig.rights.${1:Model}Edit;",
 			"",
