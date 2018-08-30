@@ -49,9 +49,9 @@
       "import { observer } from 'mobx-react';",
       "",
       "const ${1:name} = observer((props) => {",
-      "return (",
-      "  <Fragment>TODO: place holder</Fragment>",
-      ");",
+      "  return (",
+      "    <Fragment>TODO: place holder</Fragment>",
+      "  );",
       "});",
       "",
       "export default ${1:name};"
