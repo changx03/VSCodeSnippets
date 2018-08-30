@@ -30,16 +30,32 @@
   "Create React class": {
     "prefix": "reactclass",
     "body": [
-			"import React, { Component } from 'react';",
-			"",
-			"export default class ${1:name} extends Component {",
-			"  render() {",
-			"    return (",
-			"      <div></div>",
-			"    );",
-			"  }",
-			"}"
+      "import React, { Component } from 'react';",
+      "",
+      "export default class ${1:name} extends Component {",
+      "  render() {",
+      "    return (",
+      "      <div></div>",
+      "    );",
+      "  }",
+      "}"
     ],
     "description": "Create React class"
+  },
+  "Create MobX React component": {
+    "prefix": "mobxcomp",
+    "body": [
+      "import React, { Fragment } from 'react';",
+      "import { observer } from 'mobx-react';",
+      "",
+      "const ${1:name} = observer((props) => {",
+      "return (",
+      "  <Fragment>TODO: place holder</Fragment>",
+      ");",
+      "});",
+      "",
+      "export default ${1:name};"
+    ],
+    "description": "Create MobX React component"
   }
 }
